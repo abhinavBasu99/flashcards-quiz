@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/flashcards-quiz/static/css/main.d57a41d8.css",
+    "main.js": "/flashcards-quiz/static/js/main.19b88ff2.js",
+    "index.html": "/flashcards-quiz/index.html",
+    "main.d57a41d8.css.map": "/flashcards-quiz/static/css/main.d57a41d8.css.map",
+    "main.19b88ff2.js.map": "/flashcards-quiz/static/js/main.19b88ff2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d57a41d8.css",
+    "static/js/main.19b88ff2.js"
+  ]
+}
