@@ -13,9 +13,20 @@ function App() {
       });
   }, []);
 
+  function handleReset() {
+    fetch("https://the-trivia-api.com/v2/questions?limit=6")
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        setQuestions(data);
+      });
+  }
+
   return (
     <div className="App">
       <FlashCards questions={questions} />
+      <button onClick={handleReset}>Reset</button>
     </div>
   );
 }

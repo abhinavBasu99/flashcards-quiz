@@ -32,3 +32,9 @@ div.selected {
   color: #fff;
   font-weight: bold;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
